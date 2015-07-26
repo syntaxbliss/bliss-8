@@ -8,7 +8,7 @@ int main() {
     //emu->loadFile( string(ROMS_DIR) + "INVADERS" );
     //emu->loadFile( string(ROMS_DIR) + "MAZE" );
     //emu->loadFile( string(ROMS_DIR) + "TETRIS" );
-    emu->loadFile( string(ROMS_DIR) + "VBRIX" ); // FIXME: probar con otro engine de rendering
+    emu->loadFile( string(ROMS_DIR) + "VBRIX" );
     //emu->loadFile( string(ROMS_DIR) + "WORM3" );
     emu->start();
     delete emu;

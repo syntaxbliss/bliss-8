@@ -110,7 +110,7 @@ void Emulator::render( bool* display ) {
     uint8_t screen[ SCREEN_HEIGHT ][ SCREEN_WIDTH ][ 3 ];
     for( int y = 0; y < SCREEN_HEIGHT; y++ ) {
         for( int x = 0; x < SCREEN_WIDTH; x++ ) {
-            uint8_t color = display[ y * SCREEN_WIDTH + x ] ? 0 : 255;
+            uint8_t color = display[ y * SCREEN_WIDTH + x ] ? PIXEL_ON : PIXEL_OFF;
             screen[ y ][ x ][ 0 ] = color;
             screen[ y ][ x ][ 1 ] = color;
             screen[ y ][ x ][ 2 ] = color;

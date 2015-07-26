@@ -8,8 +8,8 @@
 #define SCREEN_WIDTH    64
 #define SCREEN_HEIGHT   32
 #define SCREEN_SCALE    8
-#define PIXEL_ON        0xff000000
-#define PIXEL_OFF       0xffffffff
+#define PIXEL_ON        0
+#define PIXEL_OFF       255
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
