@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1437899202 source:/home/sosella/Desarrollo/Emuladores/Chip8/chip8-1/Chip8.cpp
+	"Chip8.hpp"
+	"Commons.hpp"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1437893459 /home/sosella/Desarrollo/Emuladores/Chip8/chip8-1/Chip8.hpp
+	<stdint.h>
+	<iostream>
+	"Commons.hpp"
+
+1437896089 /home/sosella/Desarrollo/Emuladores/Chip8/chip8-1/Commons.hpp
+
+1437897502 source:/home/sosella/Desarrollo/Emuladores/Chip8/chip8-1/main.cpp
+	<stdio.h>
+	"Emulator.hpp"
+
+1437899682 source:/home/sosella/Desarrollo/Emuladores/Chip8/chip8-1/Emulator.cpp
+	"Emulator.hpp"
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+
+1437899906 /home/sosella/Desarrollo/Emuladores/Chip8/chip8-1/Emulator.hpp
+	"Chip8.hpp"
+	<SDL/SDL.h>
+
